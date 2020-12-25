@@ -6,7 +6,7 @@
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/JossyDevers/minify-js/blob/master/LICENSE) 
 
 ## Version
-[![GitHub Release](https://img.shields.io/github/v/release/zugazagoitia/minify-js)]()
+[![GitHub Release](https://img.shields.io/github/v/release/zugazagoitia/minify-js?include_prereleases)]()
 
 Github action to minify html, javascript and css files, using [minify](https://www.npmjs.com/package/minify).
 
