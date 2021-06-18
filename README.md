@@ -1,6 +1,8 @@
 # Minify-JS Action
 
-## Package Managers
+## Info
+
+Forked to change default behaviour, files are overwritten instead of duplicated.
 
 ## License
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/JossyDevers/minify-js/blob/master/LICENSE) 
