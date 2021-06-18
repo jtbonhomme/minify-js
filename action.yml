@@ -1,5 +1,5 @@
-name: 'Minify-JS Action'
-description: 'Github action to minify html, javascript and css files'
+name: 'Web minifier'
+description: 'Minify css, js and html files for deployment. Files are minified and overwritten'
 
 inputs:
   directory:
