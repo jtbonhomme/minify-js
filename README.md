@@ -33,7 +33,7 @@ jobs:
 
       # Job for Minify-JS
       - name: Web minifier
-        uses: jtbonhomme/minify-js@v0.2
+        uses: jtbonhomme/minify-js@v0.5
         with:
           directory: 'src'
           output: 'dist/'
