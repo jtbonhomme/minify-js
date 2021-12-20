@@ -5,10 +5,10 @@
 Forked to change default behaviour, files are overwritten instead of duplicated.
 
 ## License
-[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/JossyDevers/minify-js/blob/master/LICENSE) 
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/jtbonhomme/minify-js/blob/master/LICENSE) 
 
 ## Version
-[![GitHub Release](https://img.shields.io/github/v/release/zugazagoitia/minify-js?include_prereleases)]()
+[![GitHub Release](https://img.shields.io/github/v/release/jtbonhomme/minify-js?include_prereleases)]()
 
 Github action to minify html, javascript and css files, using [minify](https://www.npmjs.com/package/minify).
 
@@ -33,10 +33,10 @@ jobs:
 
       # Job for Minify-JS
       - name: Web minifier
-        uses: zugazagoitia/minify-js@v0.2
+        uses: jtbonhomme/minify-js@v0.2
         with:
-          directory: 'src/component.js' # (OPTIONAL)
-          output: 'minify/src/' # (OPTIONAL)
+          directory: 'src'
+          output: 'dist/'
           
       # Auto-commit to repository
       - uses: stefanzweifel/git-auto-commit-action@v4
