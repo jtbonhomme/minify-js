@@ -1,16 +1,15 @@
-# Minify-JS Action
+# Minify-Web (WIP)
 
-## Info
+## Presentation
 
-Forked to change default behaviour, files are overwritten instead of duplicated.
+Work in progress, do not use.
+This github action minifies and uglifies html, js and css files from a given directory to another.
 
 ## License
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/jtbonhomme/minify-js/blob/master/LICENSE) 
 
 ## Version
 [![GitHub Release](https://img.shields.io/github/v/release/jtbonhomme/minify-js?include_prereleases)]()
-
-Github action to minify html, javascript and css files, using [minify](https://www.npmjs.com/package/minify).
 
 ### Usage
 First you need to check out your repository, then configure the Minify-JS job, at the end you can commit to your repository.
